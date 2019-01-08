@@ -1,0 +1,99 @@
+.cruise-tour-calendar-container {
+    width: 1000px;
+    padding: 30px;
+}
+.cruise-tour-calendar-inner {
+    height: 820px;
+    overflow-y: auto;
+}
+
+#cruise-tour-calendar {
+    height: 760px;
+}
+#cruise-tour-calendar .fc-header-toolbar {
+    display: none;
+}
+
+.fc-event-container .tour-price {
+	display: inline-block;
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-weight: 700;
+	color: #4ABEB2;
+	
+}
+.fc-event-container .event-extra-info {
+    margin: 2px 0 5px;
+}
+
+.fc-event,
+.fc-event-dot {
+    color: #484848;
+    background: none;
+    border: none;
+    font-size: 12px;
+}
+.fc-event:hover {
+    color: #484848;
+    text-decoration: underline;
+}
+
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+	font-size: 12px;
+	font-weight: 700;
+	margin: 3px 7px 0 0;
+	color: #A7A8AA;
+}
+
+.fc .fc-day-header {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #484848;
+	font-weight: 700;
+	padding: 10px;
+	background: #FAFAFC;
+}
+
+.fc-list-item-time {
+    display: none;
+}
+
+.fc-custom-nav {
+    border: 1px solid #E0E1E4;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+}
+.fc-custom-year-nav {
+    min-width: 269px;
+    text-align: center;
+    border-right: 1px solid #E0E1E4;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.fc-custom-nav .nav {
+    font-family: "Montserrat";
+    display: inline-block;
+    text-transform: uppercase;
+	font-size: 13px;
+	color: #484848;
+    opacity: .5;
+    margin: 0 13px;
+    cursor: pointer;
+}
+.fc-custom-nav .nav.active {
+	font-weight: 600;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.fc-custom-month-nav .nav {
+    font-size: 12px;
+}
+
+.calendar-enquire-btn {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
